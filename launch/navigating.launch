@@ -1,0 +1,7 @@
+<launch>
+  <include file="$(find ROS_SLAM_Navigation)/launch/main_world.launch" name="gazebo"/>
+  <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch" name="turtlebot3_navigation">
+    <arg name="map_file" value="$(find ROS_SLAM_Navigation)/mymap.yaml"/>
+  </include>
+  <node pkg="ROS_SLAM_Navigation" name="navigation" type="navigating.py"/>
+</launch>

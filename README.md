@@ -5,8 +5,8 @@ Run: roslaunch ROS_SLAM_Navigation navigating.launch
 
 Generated map:
 
-<img src="git-img/map.png" width="500" />
+<img src="git-imgs/map.png" width="500" />
 
 Navigating through map:
 
-<img src="git-img/navigating.gif" width="500" />
+<img src="git-imgs/navigating.gif" width="500" />
